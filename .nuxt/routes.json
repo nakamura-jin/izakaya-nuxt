@@ -1,0 +1,135 @@
+[
+  {
+    "name": "cart",
+    "path": "/cart",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/cart/index.vue",
+    "chunkName": "pages/cart/index",
+    "_name": "_9915b77e"
+  },
+  {
+    "name": "error",
+    "path": "/error",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/error.vue",
+    "chunkName": "pages/error",
+    "_name": "_2bd16ada"
+  },
+  {
+    "name": "order",
+    "path": "/order",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/order/index.vue",
+    "chunkName": "pages/order/index",
+    "_name": "_2c2788ba"
+  },
+  {
+    "name": "admin-member",
+    "path": "/admin/member",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/admin/member/index.vue",
+    "chunkName": "pages/admin/member/index",
+    "_name": "_696523fb"
+  },
+  {
+    "name": "admin-menu",
+    "path": "/admin/menu",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/admin/menu/index.vue",
+    "chunkName": "pages/admin/menu/index",
+    "_name": "_7046b600"
+  },
+  {
+    "name": "admin-user",
+    "path": "/admin/user",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/admin/user/index.vue",
+    "chunkName": "pages/admin/user/index",
+    "_name": "_f31b1528"
+  },
+  {
+    "name": "auth-done",
+    "path": "/auth/done",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/auth/done.vue",
+    "chunkName": "pages/auth/done",
+    "_name": "_334c22db"
+  },
+  {
+    "name": "auth-login",
+    "path": "/auth/login",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/auth/login.vue",
+    "chunkName": "pages/auth/login",
+    "_name": "_70489fe0"
+  },
+  {
+    "name": "auth-register",
+    "path": "/auth/register",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/auth/register.vue",
+    "chunkName": "pages/auth/register",
+    "_name": "_51b5ecfc"
+  },
+  {
+    "name": "cart-order",
+    "path": "/cart/order",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/cart/order.vue",
+    "chunkName": "pages/cart/order",
+    "_name": "_67803686"
+  },
+  {
+    "name": "cart-order_completed",
+    "path": "/cart/order_completed",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/cart/order_completed.vue",
+    "chunkName": "pages/cart/order_completed",
+    "_name": "_795be549"
+  },
+  {
+    "name": "order-updated_order",
+    "path": "/order/updated_order",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/order/updated_order.vue",
+    "chunkName": "pages/order/updated_order",
+    "_name": "_4f09209b"
+  },
+  {
+    "name": "admin-member-register",
+    "path": "/admin/member/register",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/admin/member/register.vue",
+    "chunkName": "pages/admin/member/register",
+    "_name": "_7a43208a"
+  },
+  {
+    "name": "admin-menu-completed_menu",
+    "path": "/admin/menu/completed_menu",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/admin/menu/completed_menu.vue",
+    "chunkName": "pages/admin/menu/completed_menu",
+    "_name": "_6bd33515"
+  },
+  {
+    "name": "admin-menu-create_menu",
+    "path": "/admin/menu/create_menu",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/admin/menu/create_menu.vue",
+    "chunkName": "pages/admin/menu/create_menu",
+    "_name": "_31921120"
+  },
+  {
+    "name": "admin-menu-updated_menu",
+    "path": "/admin/menu/updated_menu",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/admin/menu/updated_menu.vue",
+    "chunkName": "pages/admin/menu/updated_menu",
+    "_name": "_4acd4b25"
+  },
+  {
+    "name": "admin-member-id",
+    "path": "/admin/member/:id",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/admin/member/_id.vue",
+    "chunkName": "pages/admin/member/_id",
+    "_name": "_f35c2dba"
+  },
+  {
+    "name": "admin-menu-id",
+    "path": "/admin/menu/:id",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/admin/menu/_id.vue",
+    "chunkName": "pages/admin/menu/_id",
+    "_name": "_cbeb8f30"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/nakamurajin/Desktop/test_izakaya/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2fe966b8"
+  }
+]

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[30],{533:function(e,n,t){"use strict";t.r(n);var r={layout:error},l=t(41),component=Object(l.a)(r,(function(){var e=this,n=e.$createElement;e._self._c;return e._m(0)}),[function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",[t("p",[e._v("エラーです")])])}],!1,null,null,null);n.default=component.exports}}]);
