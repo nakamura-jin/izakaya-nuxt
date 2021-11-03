@@ -56,7 +56,8 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'http://localhost:8000',
+    // baseURL: 'http://localhost:8000',
+    baseURL: 'https://demo-izakaya-backend.herokuapp.com',
     credentials: true
     // proxy:true
   },
@@ -93,7 +94,8 @@ export default {
     strategies: {
       'laravelSanctum': {
         provider: 'laravel/sanctum',
-        url: 'http://localhost:8000',
+        // url: 'http://localhost:8000',
+        url: 'https://demo-izakaya-backend.herokuapp.com',
         endpoints: {
           login: {
             url: '/api/login'
