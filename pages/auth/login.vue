@@ -84,7 +84,7 @@
     methods: {
       async login() {
         try{
-          await this.$axios.$get('sanctum/csrf-cookie')
+          await this.$axios.$get('/sanctum/csrf-cookie')
             .then(() => {
                 this.$auth.loginWith('laravelSanctum', {data:{
                 email: this.email,
