@@ -58,8 +58,15 @@ export default {
   axios: {
     // baseURL: 'http://localhost:8000',
     baseURL: 'https://demo-izakaya-backend.herokuapp.com',
-    credentials: true
-    // proxy:true
+    credentials: true,
+    proxy:true
+  },
+
+  proxy: {
+    '/laravel': {
+      target: 'https://demo-izakaya-backend.herokuapp.com',
+      pathRewrite: { '^/laravel': '/' }
+    }
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
