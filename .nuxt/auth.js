@@ -42,7 +42,7 @@ export default function (ctx, inject) {
   // Register strategies
   // laravelSanctum
   $auth.registerStrategy('laravelSanctum', new CookieScheme($auth, {
-  "url": "https://demo-izakaya-backend.herokuapp.com",
+    "url": "https://demo-izakaya-backend.herokuapp.com",
   "endpoints": {
     "csrf": {
       "withCredentials": true,
