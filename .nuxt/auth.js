@@ -33,16 +33,25 @@ export default function (ctx, inject) {
   "localStorage": {
     "prefix": "auth."
   },
-  "defaultStrategy": "laravelSanctum"
+  "defaultStrategy": "cookie"
 }
 
   // Create a new Auth instance
   const $auth = new Auth(ctx, options)
 
   // Register strategies
+  // cookie
+  $auth.registerStrategy('cookie', new CookieScheme($auth, {
+  "cookie": {
+    "name": "X-XSRF-TOKEN"
+  },
+  "name": "cookie"
+}))
+
   // laravelSanctum
   $auth.registerStrategy('laravelSanctum', new CookieScheme($auth, {
-  "url": "http://localhost:8000",
+  // "url": "http://localhost:8000",
+  "url": "https://demo-izakaya-backend.herokuapp.com",
   "endpoints": {
     "csrf": {
       "withCredentials": true,
@@ -51,7 +60,8 @@ export default function (ctx, inject) {
         "Content-Type": "application/json",
         "Accept": "application/json"
       },
-      "url": "http://localhost:8000/sanctum/csrf-cookie"
+      // "url": "http://localhost:8000/sanctum/csrf-cookie"
+      "url": "https://demo-izakaya-backend.herokuapp.com/sanctum/csrf-cookie"
     },
     "login": {
       "withCredentials": true,
@@ -60,7 +70,8 @@ export default function (ctx, inject) {
         "Content-Type": "application/json",
         "Accept": "application/json"
       },
-      "url": "http://localhost:8000/api/login"
+      // "url": "http://localhost:8000/api/login"
+      "url": "https://demo-izakaya-backend.herokuapp.com/api/login"
     },
     "logout": {
       "withCredentials": true,
@@ -69,7 +80,8 @@ export default function (ctx, inject) {
         "Content-Type": "application/json",
         "Accept": "application/json"
       },
-      "url": "http://localhost:8000/api/logout"
+      // "url": "http://localhost:8000/api/logout"
+      "url": "https://demo-izakaya-backend.herokuapp.com/api/logout"
     },
     "user": {
       "withCredentials": true,
@@ -78,7 +90,8 @@ export default function (ctx, inject) {
         "Content-Type": "application/json",
         "Accept": "application/json"
       },
-      "url": "http://localhost:8000/api/user"
+      // "url": "http://localhost:8000/api/user"
+      "url": "https://demo-izakaya-backend.herokuapp.com/api/user"
     }
   },
   "user": {
