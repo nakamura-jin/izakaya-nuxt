@@ -98,7 +98,6 @@ export default {
         provider: 'laravel/sanctum',
         // url: 'http://localhost:8000',
         url: 'https://demo-izakaya-backend.herokuapp.com',
-        url: 'https://demo-izakaya-backend.herokuapp.com',
         endpoints: {
           login: {
             url: '/api/login'
