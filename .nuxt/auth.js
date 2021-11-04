@@ -42,7 +42,7 @@ export default function (ctx, inject) {
   // Register strategies
   // laravelSanctum
   $auth.registerStrategy('laravelSanctum', new CookieScheme($auth, {
-    "url": "https://demo-izakaya-backend.herokuapp.com",
+    "url":"https://demo-izakaya-backend.herokuapp.com",
   "endpoints": {
     "csrf": {
       "withCredentials": true,
@@ -51,7 +51,7 @@ export default function (ctx, inject) {
         "Content-Type": "application/json",
         "Accept": "application/json"
       },
-      "url": "https://demo-izakaya-backend.herokuapp.com/sanctum/csrf-cookie"
+      "url":"https://demo-izakaya-backend.herokuapp.com/sanctum/csrf-cookie"
     },
     "login": {
       "withCredentials": true,
@@ -60,7 +60,7 @@ export default function (ctx, inject) {
         "Content-Type": "application/json",
         "Accept": "application/json"
       },
-      "url": "https://demo-izakaya-backend.herokuapp.com/api/login"
+      "url":"https://demo-izakaya-backend.herokuapp.com/api/login"
     },
     "logout": {
       "withCredentials": true,
@@ -69,7 +69,7 @@ export default function (ctx, inject) {
         "Content-Type": "application/json",
         "Accept": "application/json"
       },
-      "url": "https://demo-izakaya-backend.herokuapp.com/api/logout"
+      "url":"https://demo-izakaya-backend.herokuapp.com/api/logout"
     },
     "user": {
       "withCredentials": true,
@@ -78,7 +78,7 @@ export default function (ctx, inject) {
         "Content-Type": "application/json",
         "Accept": "application/json"
       },
-      "url": "https://demo-izakaya-backend.herokuapp.com/api/user"
+      "url":"https://demo-izakaya-backend.herokuapp.com/api/user"
     }
   },
   "user": {
