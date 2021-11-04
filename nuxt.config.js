@@ -92,11 +92,6 @@ export default {
 
   auth: {
     strategies: {
-      cookie: {
-        cookie: {
-          name: 'XSRF-TOKEN'
-        }
-      },
       'laravelSanctum': {
         provider: 'laravel/sanctum',
         // url: 'http://localhost:8000',
