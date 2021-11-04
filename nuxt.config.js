@@ -59,15 +59,9 @@ export default {
     // baseURL: 'http://localhost:8000',
     baseURL: 'https://demo-izakaya-backend.herokuapp.com',
     credentials: true,
-    proxy:true
+    // proxy:true
   },
 
-  proxy: {
-    '/laravel': {
-      target: 'https://demo-izakaya-backend.herokuapp.com',
-      pathRewrite: { '^/laravel': '/' }
-    }
-  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
@@ -99,6 +93,7 @@ export default {
 
   auth: {
     strategies: {
+      
       'laravelSanctum': {
         provider: 'laravel/sanctum',
         // url: 'http://localhost:8000',
