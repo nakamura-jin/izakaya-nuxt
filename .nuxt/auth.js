@@ -86,8 +86,7 @@ export default function (ctx, inject) {
   },
   "name": "laravelSanctum",
   "cookie": {
-    "name": "XSRF-TOKEN",
-    'url': 'https://demo-izakaya-backend.herokuapp.com'
+    "name": "XSRF-TOKEN"
   }
 }))
 
