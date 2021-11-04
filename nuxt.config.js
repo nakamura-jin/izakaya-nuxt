@@ -94,7 +94,7 @@ export default {
     strategies: {
       cookie: {
         cookie: {
-          name: 'X-XSRF-TOKEN'
+          name: 'XSRF-TOKEN'
         }
       },
       'laravelSanctum': {
