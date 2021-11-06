@@ -85,13 +85,13 @@
       async login() {
         try{
           await this.$axios.$get('sanctum/csrf-cookie')
-            .then(() => {
-                this.$auth.loginWith('laravelSanctum', {data:{
-                email: this.email,
-                password: this.password
-              },
-            })
+          .then(() => {
+              this.$auth.loginWith('laravelSanctum', {data:{
+              email: this.email,
+              password: this.password
+            },
           })
+        })
         } catch(error) {
           alert(error)
         }
